@@ -25,8 +25,7 @@ Befehlsdecoder <---------------------- Befehl (RAM)
 Befehlsregister
 
 Befehlszähler   ---------------------> Befehl (Nächster Befehl)
-
-		     (Adressen)
+			(Adressen)
 
 
 (Rechenwerk)
