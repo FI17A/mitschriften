@@ -17,14 +17,19 @@ Befehlsregister
 Befehlszähler   ---------------------> Befehl (Nächster Befehl)
 		     (Adressen)
 
+
 (Rechenwerk)
 ALE - Arithmetisch Logische Einheit
+
+
 
 Akkumulator
 Speichert Ergebnisse (in Registren)
 
 
+
+
 Harvard-Prinzip:
 3-Bus Systeme zwischen Prozessor und Speicher
 (Weiterentwicklung vom "Von Neumann-Prinzip" ->
- aller über ein Leitungssytem)
+ aller über ein Leitungssytem
