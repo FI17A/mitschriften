@@ -54,3 +54,4 @@ Kommunikationsmodelle
 ### nach Paul Watzlawik
 ### nach Karl Bühler
 ### nach Friedemann Schulz von Thun
+![Kommunikation nach Thun](img/deutsch/komm_nach_thun.svg)
