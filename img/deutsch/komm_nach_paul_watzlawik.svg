@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" height="137.58mm" width="202.22mm" version="1.1" viewBox="0 0 202.21725 137.58333">
+	<defs>
+		<marker id="marker3481" refY="0" refX="0" overflow="visible" orient="auto">
+			<path d="m0 0 5-5-17.5 5 17.5 5z" fill-rule="evenodd" transform="matrix(-.4 0 0 -.4 -4 0)" stroke="#030303" stroke-width="1pt" fill="#030303"/>
+		</marker>
+		<marker id="marker3019" refY="0" refX="0" overflow="visible" orient="auto">
+			<path d="m0 0 5-5-17.5 5 17.5 5z" fill-rule="evenodd" transform="matrix(-.4 0 0 -.4 -4 0)" stroke="#030303" stroke-width="1pt" fill="#030303"/>
+		</marker>
+		<marker id="marker2193" refY="0" refX="0" overflow="visible" orient="auto">
+			<path d="m0 0 5-5-17.5 5 17.5 5z" fill-rule="evenodd" transform="matrix(-.4 0 0 -.4 -4 0)" stroke="#030303" stroke-width="1pt" fill="#030303"/>
+		</marker>
+		<marker id="marker1603" refY="0" refX="0" overflow="visible" orient="auto">
+			<path d="m0 0 5-5-17.5 5 17.5 5z" fill-rule="evenodd" transform="matrix(-.4 0 0 -.4 -4 0)" stroke="#030303" stroke-width="1pt" fill="#030303"/>
+		</marker>
+		<marker id="marker1453" refY="0" refX="0" overflow="visible" orient="auto">
+			<path d="m0 0 5-5-17.5 5 17.5 5z" fill-rule="evenodd" transform="matrix(-.4 0 0 -.4 -4 0)" stroke="#030303" stroke-width="1pt" fill="#030303"/>
+		</marker>
+		<marker id="marker1245" refY="0" refX="0" overflow="visible" orient="auto">
+			<path d="m0 0 5-5-17.5 5 17.5 5z" fill-rule="evenodd" transform="matrix(-.4 0 0 -.4 -4 0)" stroke="#030303" stroke-width="1pt" fill="#030303"/>
+		</marker>
+	</defs>
+	<g transform="translate(-4.1577 .089286)">
+		<rect style="paint-order:normal" height="137.58" width="202.22" y="-.089286" x="4.1577" fill="#fff"/>
+		<text style="word-spacing:0px;letter-spacing:0px;writing-mode:vertical-lr" xml:space="preserve" font-size="10.583px" y="11.943573" x="104.6994" font-family="sans-serif" line-height="1.25" fill="#000000"><tspan y="11.943573" x="104.6994" style="writing-mode:lr-tb;text-anchor:middle;text-align:center" stroke-width=".26458">Kommunikation nach Paul Watzlawik</tspan></text>
+		<rect style="paint-order:normal" height="45.357" width="56.507" stroke="#000" stroke-linecap="square" y="21.455" x="12.284" stroke-width=".26458" fill="none"/>
+		<g font-size="10.583px" font-family="sans-serif">
+			<text style="word-spacing:0px;letter-spacing:0px;writing-mode:vertical-lr" xml:space="preserve" line-height="1.25" y="33.361603" x="21.355652"><tspan y="33.361603" x="21.355652" style="writing-mode:lr-tb" stroke-width=".26458">Sender</tspan></text>
+			<text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="1.25" y="60.575893" x="18.709822"><tspan y="60.575893" x="18.709822" stroke-width=".26458">Codiert</tspan></text>
+			<text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="1.25" y="40.354164" x="43.65625"><tspan y="49.717934" x="43.65625" stroke-width=".26458"/></text>
+		</g>
+		<path stroke-linejoin="round" marker-end="url(#marker1245)" d="m40.254 36.763v10.584" stroke="#030303" stroke-linecap="round" stroke-width="1.0583" fill="none"/>
+		<rect style="paint-order:normal" height="45.357" width="65.579" stroke="#000" stroke-linecap="square" y="21.455" x="126.06" stroke-width=".26458" fill="none"/>
+		<text style="word-spacing:0px;letter-spacing:0px;writing-mode:vertical-lr" xml:space="preserve" font-size="10.583px" y="32.41666" x="129.07887" font-family="sans-serif" line-height="1.25" fill="#000000"><tspan y="32.41666" x="129.07887" style="writing-mode:lr-tb" stroke-width=".26458">Empfenger</tspan></text>
+		<text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="10.583px" y="61.520836" x="133.2366" font-family="sans-serif" line-height="1.25" fill="#000000"><tspan y="61.520836" x="133.2366" stroke-width=".26458">Decodiert</tspan></text>
+		<path stroke-linejoin="round" marker-end="url(#marker1453)" d="m159.13 38.653v10.584" stroke="#030303" stroke-linecap="round" stroke-width="1.0583" fill="none"/>
+		<path stroke-linejoin="round" marker-end="url(#marker1603)" d="m120.76 42.811h-45.354" stroke="#030303" stroke-linecap="round" stroke-width="1.0583" fill="none"/>
+		<text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="4.0254px" y="84.282341" x="73.556717" font-family="sans-serif" line-height="1.25" fill="#000000"><g stroke-width=".26458"><tspan y="84.282341" x="73.556717">Faktoren, die die</tspan><tspan y="89.314125" x="73.556717">Kommunikation</tspan><tspan y="94.345901" x="73.556717">beeinflussen</tspan></g></text>
+		<path stroke-linejoin="round" marker-end="url(#marker2193)" d="m40.443 70.403 18.899 25.135" stroke="#030303" stroke-linecap="round" stroke-width=".6" fill="none"/>
+		<ellipse opacity=".6" style="paint-order:normal" rx="22.301" ry="11.15" cy="106.88" cx="75.973" fill="#01ff0a"/>
+		<ellipse opacity=".6" style="paint-order:normal" rx="22.301" ry="11.15" cy="106.69" cx="108.29" fill="#b001ff"/>
+		<path stroke-linejoin="round" marker-end="url(#marker3019)" d="m144.95 70.97-20.03 24.002" stroke="#030303" stroke-linecap="round" stroke-width=".6" fill="none"/>
+		<path stroke-linejoin="round" marker-end="url(#marker3481)" d="m103 119.92c-2.2678 14.552-23.057 15.119-26.269-0.00001" stroke="#030303" stroke-linecap="round" stroke-width=".6" fill="none"/>
+		<text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="4.0254px" y="127.37163" x="102.09393" font-family="sans-serif" line-height="1.25" fill="#000000"><tspan y="127.37163" x="102.09393" stroke-width=".26458">Feedback</tspan></text>
+	</g>
+</svg>
