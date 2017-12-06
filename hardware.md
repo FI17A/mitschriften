@@ -43,7 +43,9 @@ diese stellten einen Flaschenhals dar.
 
 Dann kam die __Harward-Architektur__: Je ein Addressbus, Befehlsbus und Datenbus.
 
-- Register: Speichern numerische Werte
+\*Das stimmt so nicht wirklich, [*Von-Neuman-Architektur* auf Wikipedia](https://de.wikipedia.org/wiki/Von-Neumann-Architektur)
+
+-  Register: Speichern numerische Werte
 - Akkumulator: Ein besonderes Register, in das Ergebnisse von Operationen gespeichert werden.
 - Rechenwerk
 	- *Arithmetic Logic Unit*: Führt Arithmetische und Logische operationen aus.
@@ -54,14 +56,29 @@ Dann kam die __Harward-Architektur__: Je ein Addressbus, Befehlsbus und Datenbus
 
 ![Prozessor Aufbau](img/hardware/cpu_1.svg)
 
-(Steuerwerk)     (Befehl/Steuer Bus)
+Microprogramme
+==============
 
-Befehlsdecoder <---------------------- Befehl
+Bei Programmen wiederholen sich oft muster von Befehlen. Diese können in sogenannte
+Microprogramme, also *komplexe Befehle*, zusammengefasst werden, um weniger einzelne Befehle
+über den Bus laden zu Müssen. (Weniger speicherzugriff = schnellere Ausführung)
 
-Befehlsregister
+Dies erhöt die Komplexität des Prozessors, der nun auch besagte Microprogramme speichern
+und dekodieren muss.
 
-Befehlszähler   ---------------------> Befehl
-			(Adressen)
+Moderne Prozessoren haben deshalb Keine Microprogramme mehr, da es mit moderner
+Technik so schneller geht.
 
+Weiterentwicklungen
+===================
 
-(Rechenwerk)
+- Stetige Erhöhung des Arbeitsspeichers
+	- Speichermanagement in externen chipsatz ausgelagert
+- Alle IO operationen in chipsatz ausgelagert
+	- North Bridge: Grafik + Speicher, sehr schnell
+	- South Bridge: Alles andere, nicht ganz so schnell
+- Floating Point Unit
+- Cache (Speicher im CPU)
+	- L1 cache: Im Kern
+	- L2 cache: Im Kern
+	- L3 cache: Außerhalb der Kerne
