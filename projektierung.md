@@ -1,8 +1,8 @@
 Projektierung
 =============
 
-1. Softwareentwicklungsprozess
----
+1 Softwareentwicklungsprozess
+===
 
 **Prozessteilnehmer**
 
@@ -20,7 +20,7 @@ Gründe:
 - Erfahrung der eigenen Entwicklung
 - Stetige Entwicklung
 
-1.1. Anwender, Auftraggeber, Kunde, Nutzer
+1.1 Anwender, Auftraggeber, Kunde, Nutzer
 ---
 
 Ausgangspunkt eines jeden Projektes
