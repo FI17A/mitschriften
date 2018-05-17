@@ -53,5 +53,8 @@ Standardgrößen in mm^2: 1.5, 2.5, 4, 6, 10, 16, ...
 Installationsformen:
 
 - mit Verteilerdosen
+![Bild Installation mit Verteilerdosen](https://raw.githubusercontent.com/fi17a/mitschriften/master/img/installation/verteilerdosen.png)
 - mit Geräteverbindungsdosen
+![Bild Installation mit Verteilerdosen](https://raw.githubusercontent.com/fi17a/mitschriften/master/img/installation/Weitersteckdosen.png)
 - mit Zentralem Verteilerkasten
+![Bild Installation mit Verteilerdosen](https://raw.githubusercontent.com/fi17a/mitschriften/master/img/installation/zentraleDosen.png)
