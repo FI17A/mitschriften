@@ -21,4 +21,27 @@ Großer Frequenzbereich mit vielen Kanälen und hohe Übertragungsrate. Alles ü
 \subsection{Sonderformen}
 \subsection{Glasfaseranschluss}
 
+\section{Transmission Control Protocol}
+\subsection{Sliding-Window-Prinzip}
+
+\href{https://en.wikipedia.org/wiki/Sliding_window_protocol}{Wikipedia}
+
+\subsection{Überlastkontrolle}
+
+TCP erkennt Überlastung durch hohe Paketverlustraten, hat sonst aber keine anderen Mechanismen, um Netzüberladung zu erkennen.
+Das Problem ist: die Datagramme werden nur beim Sender und beim Empfänger als TCP Pakete interpretiert, und im restlichen Netz als verbindungslose IP Datagramme behandelt.
+\\\\
+Algorithmen zur Überlastkontrolle:
+
+\begin{itemize}
+	\item Slow-Start-Algorithm
+	\item \href{https://en.wikipedia.org/wiki/Nagle's_algorithm}{Nagle-Algorithm}
+	\item Ermitteln der RTT\footnote{Round-Trip-Time}
+\end{itemize}
+
+\noindent
+Weitere informationen hierzu sind auf \href{https://en.wikipedia.org/wiki/Sliding_window_protocol}{Wikipedia} zu finden.
+\\\\
+Mögliches Problem dabei: \href{https://en.wikipedia.org/wiki/Silly_window_syndrome}{Silly Window Syndrome}
+
 \end{document}
