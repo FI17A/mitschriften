@@ -1,0 +1,10 @@
+#!/bin/sh
+git clean -f
+git checkout master
+commit=$(git log --oneline -1 | awk '{print $1}')
+find . -type f -name "*.tex" | xargs -I $ pandoc $ -o $.md
+git checkout compiled
+git add *.md
+git add *.png
+git commit -m "Compile files for commit $commit"
+git clean -f
