@@ -1,9 +1,13 @@
 #!/bin/sh
+git fetch
 git clean -f
-git checkout master
+git checkout origin/master
 commit=$(git log --oneline -1 | awk '{print $1}')
 find . -type f -name "*.tex" | xargs -I $ pandoc $ -o $.md
-git checkout compiled
+git add *.tex.md
+git stash
+git checkout compiled || exit
+git stash pop
 git add *.md
 git add *.png
 git commit -m "Compile files for commit $commit"
