@@ -11,16 +11,6 @@
 \maketitle
 \tableofcontents
 
-\section{Strukturierte Verkabelung}
-% todo: write
-
-\section{Breitbandinternet}
-
-Großer Frequenzbereich mit vielen Kanälen und hohe Übertragungsrate. Alles über 64 kbit/s ist Breitband.
-
-\subsection{Sonderformen}
-\subsection{Glasfaseranschluss}
-
 \section{Transmission Control Protocol}
 \subsection{Sliding-Window-Prinzip}
 
@@ -43,5 +33,56 @@ Algorithmen zur Überlastkontrolle:
 Weitere informationen hierzu sind auf \href{https://en.wikipedia.org/wiki/Sliding_window_protocol}{Wikipedia} zu finden.
 \\\\
 Mögliches Problem dabei: \href{https://en.wikipedia.org/wiki/Silly_window_syndrome}{Silly Window Syndrome}
+
+% ==============================================================================
+
+\section{Strukturierte Verkabelung}
+% todo: write
+
+\section{Breitbandinternet}
+
+Großer Frequenzbereich mit vielen Kanälen und hohe Übertragungsrate. Alles über 64 kbit/s ist Breitband.
+
+\subsection{Sonderformen}
+\subsection{Glasfaseranschluss}
+
+\subsection{Kein plan, ist aber nicht mehr Glasfaser}
+
+\begin{description}
+	\item [LEX] Local Exchange -- Teilnehmervermittlungsknoten\\
+		Teilnehmer und Leitungen werden an Vermittlungsstellen angeschlossen.
+	\item [TEX] Transit Exchange -- Durchgangsnetzknoten\\
+		Dient für Übertragung der Daten im Netz.
+	\item [UNI] User Network Interface\\
+		Anschluss von Teilnehmergeräten an LEX.
+		\begin{itemize}
+			\item Public UNI \item Private UNI
+		\end{itemize}
+	\item [NNI] Network Node Interface\\
+		Schnittstelle zwischen Netzknoten.
+\end{description}
+
+Die Elemente verzweigen $X$, leiten $X$ um, fassen $X$ zusammen, und passen $X$ an\\mit $X$ = Datenströme
+\\
+
+\noindent
+Vorfeldeinrichtungen:
+\begin{description}
+	\item [Multiplexer] Fassen Datenströme \underline{ohne} Signalisierung zusammen
+	\item [Konzentratoren] Fassen Datenströme \underline{mit} Signalisierung zusammen
+	\item [Cross-Connect (CC)] Lenken und verteilen zusammengefasste... \underline{hab ich nicht mitgekriegt}
+	\item [Interworking Unit (WU)] Anpassung für Verbindung bestehender Netzwerke
+\end{description}
+
+\noindent
+$\{Multiplexer\} \cup \{Konzentratoren\} = AAE$
+
+\subsection {Teilnehmeranchluss bei Breitbandnetzen}
+
+\begin{itemize}
+	\item Alle Elemente sowie Referenzpunkte sind für breitbandige Kommunikation ausgelegt
+	\item Netzabschluss durch B-NT1 (Public-UNI)
+	\item ...And then the slide was gone.
+\end{itemize}
 
 \end{document}
